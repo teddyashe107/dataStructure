@@ -25,12 +25,10 @@ public class DynamicStack {
 
 }
 	public boolean isEmpty() {
-		if(list.isEmpty()) {
-			return true;
-		}  else { return false;}
+		if(list.isEmpty())  return true;
+		else  return false;
+}
 
-
-	}
 	public int peek() {
 		return list.get(list.size() - 1);
 	}

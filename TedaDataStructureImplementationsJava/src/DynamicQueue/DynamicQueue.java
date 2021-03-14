@@ -1,4 +1,4 @@
-package dynamic_queue;
+package DynamicQueue;
 
 import java.util.ArrayList;
 
